@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping("/check")
+    @GetMapping("/")
     public String check() {
-        return "Application is alive";
+        return "hello";
     }
 }
